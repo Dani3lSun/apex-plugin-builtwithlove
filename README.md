@@ -1,6 +1,6 @@
 # Oracle APEX Region Plugin - Built with love using APEX
 
-Built with love using Application Express footer. A must have for every proud [#orclapex](https://twitter.com/hashtag/orclapex) community member.
+*Built with love using Application Express* footer. A must have for every proud [#orclapex](https://twitter.com/hashtag/orclapex) community member.
 
 More details about the whole story on [Joel Kallman´s Blog](http://joelkallman.blogspot.de/2017/07/built-with-using-oracle-application.html)
 
