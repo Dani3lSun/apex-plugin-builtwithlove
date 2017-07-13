@@ -1,0 +1,35 @@
+{
+  "name": "Built with love using APEX",
+  "version": "1.0",
+  "description": "Built with love using Application Express footer. A must have for every proud #orclapex community member.",
+  "keywords": ["apex", "love", "application", "express"],
+  "homepage": "https://github.com/Dani3lSun/apex-plugin-builtwithlove",
+  "bugs": {
+    "url": "https://github.com/Dani3lSun/apex-plugin-builtwithlove/issues",
+    "email": "daniel@danielh.de"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Daniel Hochleitner",
+    "email": "daniel@danielh.de",
+    "url": "https://danielhochleitner.de",
+    "twitter": "Dani3lSun",
+    "donationUrl": "https://www.paypal.me/DanielHochleitnerIT/3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dani3lSun/apex-plugin-builtwithlove.git"
+  },
+  "oracle": {
+    "versions": ["11.2.0.1", "12.1.0.1", "12.2.0.1"],
+    "apex": {
+      "versions": ["5.0.0", "5.1.0"],
+      "plugin": {
+        "internalName": "ORG.ORCLAPEX.BUILTWITHLOVE",
+        "type": "region",
+        "demo": "http://joelkallman.blogspot.de/2017/07/built-with-using-oracle-application.html",
+        "previewImage": "https://raw.githubusercontent.com/Dani3lSun/apex-plugin-builtwithlove/master/preview.gif"
+      }
+    }
+  }
+}
