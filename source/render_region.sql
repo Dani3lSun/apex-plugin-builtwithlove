@@ -19,7 +19,7 @@ BEGIN
   --
   -- write region html
   sys.htp.p('<div id="' || l_region_id || '">' ||
-            '<span class="footer-apex">Built with <span class="fa fa-heart"><span class="u-VisuallyHidden">love</span></span> using <a href="https://apex.oracle.com/" target="_blank">Oracle Application Express</a></span>' ||
+            '<span class="footer-apex">Built with <span class="fa fa-heart"><span class="u-VisuallyHidden">love</span></span> using <a href="https://apex.oracle.com/" target="_blank" title="Oracle Application Express">Oracle APEX</a></span>' ||
             '</div>');
   --
   RETURN l_result;
