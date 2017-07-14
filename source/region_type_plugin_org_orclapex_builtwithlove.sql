@@ -56,7 +56,7 @@ wwv_flow_api.create_plugin(
 '  --',
 '  -- write region html',
 '  sys.htp.p(''<div id="'' || l_region_id || ''">'' ||',
-'            ''<span class="footer-apex">Built with <span class="fa fa-heart"><span class="u-VisuallyHidden">love</span></span> using <a href="https://apex.oracle.com/" target="_blank">Oracle Application Express</a></span>'' ||',
+'            ''<span class="footer-apex">Built with <span class="fa fa-heart"><span class="u-VisuallyHidden">love</span></span> using <a href="https://apex.oracle.com/" target="_blank" title="Oracle Application Express">Oracle APEX</a></span>'' ||',
 '            ''</div>'');',
 '  --',
 '  RETURN l_result;',
@@ -65,8 +65,8 @@ wwv_flow_api.create_plugin(
 ,p_render_function=>'render_region'
 ,p_substitute_attributes=>true
 ,p_subscribe_plugin_settings=>true
-,p_help_text=>'Built with love using Application Express footer. A must have for every proud #orclapex community member.'
-,p_version_identifier=>'1.0'
+,p_help_text=>'Built with love using Application Express (APEX) footer. A must have for every proud #orclapex community member.'
+,p_version_identifier=>'1.1'
 ,p_about_url=>'http://joelkallman.blogspot.de/2017/07/built-with-using-oracle-application.html'
 ,p_files_version=>3
 );
